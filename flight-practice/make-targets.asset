@@ -1,0 +1,174 @@
+local assetHelper = asset.require('util/asset_helper')
+local transforms = asset.require("scene/solarsystem/sun/transforms")
+local mars = asset.require('scene/solarsystem/planets/mars/mars')
+local debugHelper = asset.require('util/debug_helper')
+
+local objectPositions = asset.localResource("flight-training-on-mars-1.csv")
+local textures = asset.localResource("textures")
+local models = asset.localResource("models")
+local LightSources = {
+    {
+        Type = "SceneGraphLightSource",
+        Identifier = "Sun",
+        Node = transforms.SolarSystemBarycenter.Identifier,
+        Intensity = 1.0
+    },
+    {
+        Identifier = "Camera",
+        Type = "CameraLightSource",
+        Intensity = 1.0
+    }
+}
+
+local i = 1
+
+--function that reads the file
+local createPositions = function (guiPath, objectPositions)
+  local genPositions = {};
+  --skip the first line
+  local notFirstLine = false;
+
+  local distanceMultiplier = 3.2;
+  local baseScale = 1e17;
+  for line in io.lines(openspace.absPath(objectPositions)) do
+      if (notFirstLine) then
+        -- describes the data
+        local matchstring = '(.-),(.-),(.-),(.-),(.-),(.-),(.-)$'
+        local time, lat, long, alt, labelTime, roty, rotz = line:match(matchstring)
+        local vx = 	math.cos (math.rad (lat))*math.cos (math.rad (long))
+        local vy = 	math.cos (math.rad (lat))*math.sin (math.rad (long))
+        local vz =  math.sin (math.rad (lat))
+
+        local nx = 0
+        local ny = 0
+        local nz = 1
+
+        local ex = vy*nz-vz*ny
+        local ey = vz*nx-vx*nz
+        local ez = vx*ny-vy*nx
+
+        local aPositionHolder = {
+          Identifier = 'TargetHolder'..i,
+          Parent = mars.Mars.Identifier,
+          Transform = {
+              Translation = {
+                  Type = "GlobeTranslation",
+                  Globe = mars.Mars.Identifier,
+                  Longitude =  tonumber(long),
+                  Latitude =  tonumber(lat),
+                  Altitude = tonumber(alt)*1000,
+                  UseHeightmap = true
+              },
+              Rotation = {
+                Type = "FixedRotation",
+                ZAxis = { vx, vy, vz },
+                XAxis = {-ex, -ey, -ez},
+
+              },
+              Scale = {
+                Type = "StaticScale",
+                Scale = 100
+            },
+
+          },
+
+
+
+          Tag = { "ATarget" },
+          GUI = {
+              Name = 'object'..i,
+              Path = '/FlightPractice'
+          }
+        }
+        table.insert(genPositions, aPositionHolder);
+
+        local aPosition = {
+
+            Identifier = "TargetModel"..i,
+            Parent = 'TargetHolder'..i,
+            Transform = {
+                  Scale = {
+                    Type = "StaticScale",
+                    Scale = 1.0
+                },
+                Translation = {
+                    Type = "StaticTranslation",
+                    Position = {0,0,0}
+                },
+                Rotation = {
+                  Type = "StaticRotation",
+                  Rotation = { 0, math.rad(roty), math.rad(rotz) }
+                }
+            },
+            Renderable = {
+              Type = "RenderableModel",
+              GeometryFile = models..'/'..'ring.obj',
+              ModelScale = "Meter",
+              InvertModelScale = false,
+              EnableAnimation = false,
+              LightSources = LightSources,
+              PerformShading = true,
+              DisableFaceCulling = true,
+              SpecularIntensity = 0.7,
+              DiffuseIntensity = 0.9,
+              AmbientIntensity = 0.0,
+
+            },
+            GUI = {
+                Name = "TargetModel"..i,
+                Path = '/FlightPractice'
+            }
+
+        }
+
+        table.insert(genPositions, aPosition);
+
+        --debugHelper.registerCartesianAxes(asset, {
+        --    Parent = 'Position'..i,
+        --    Scale = 500000
+        --})
+        i = i + 1
+      else
+        notFirstLine = true
+      end
+  end
+  return genPositions
+
+end
+
+
+
+
+
+local nodes = {}
+
+
+asset.onInitialize(function ()
+--local objectPositions = asset.localResource('globepositions.csv')
+
+  nodes = createPositions('GlobeObjects', objectPositions)
+  for _, n in ipairs(nodes) do
+    openspace.addSceneGraphNode(n);
+  end
+
+
+end)
+
+asset.onDeinitialize(function ()
+  for _, n in ipairs(nodes) do
+    openspace.removeSceneGraphNode(n.Identifier);
+  end
+
+end)
+
+
+
+
+asset.meta = {
+    Name = "Objects",
+    Version = "1.0",
+    Description = "TestRotations",
+    Author = "James Hedberg",
+    URL = "https://jameshedberg.com",
+    License = "CC-BY"
+}
