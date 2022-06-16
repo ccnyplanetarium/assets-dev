@@ -53,14 +53,14 @@ local createPositions = function (guiPath, objectPositions)
                 Globe = earth.Earth.Identifier,
                 Latitude = tonumber(lat),
                 Longitude = tonumber(long),
-                Angle = 90
+                Angle = 147
                 -- Can be used to to put flat on leaning surfaces, but also leads to updating
                 -- the rotation every frame
                 --UseHeightmap = true
               },
               Scale = {
                 Type = "StaticScale",
-                Scale = 100
+                Scale = 3
             },
 
           },
