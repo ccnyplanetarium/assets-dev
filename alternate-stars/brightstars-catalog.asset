@@ -1,0 +1,76 @@
+
+
+local textures = asset.syncedResource({
+    Name = "Stars Textures",
+    Type = "HttpSynchronization",
+    Identifier = "stars_textures",
+    Version = 1
+})
+
+local colormaps = asset.syncedResource({
+  Name = "Stars Color Table",
+  Type = "HttpSynchronization",
+  Identifier = "stars_colormap",
+  Version = 3
+})
+
+--This says to get the speck file from within this folder
+--then the variable speck is put next to the File entry below
+
+local speck = asset.localResource('brightstars-fixedDistance.speck')
+
+-- This says to get the star texture from within this folder, but you could also just
+-- have used the original texture i.e.  Texture = textures .. "halo.png",
+local starTex = asset.localResource('white_star_dot_grainy3.png')
+
+
+
+local object = {
+    Identifier = "BrightStars",
+    Renderable = {
+      Type = "RenderableStars",
+      File = speck,
+      Texture = starTex,
+      --ShapeTexture = textures .. "disc.png",
+      ColorMap = colormaps .. "colorbv.cmap",
+      OtherDataColorMap = colormaps .. "viridis.cmap",
+      MagnitudeExponent = 6.2,
+      SizeComposition = "Distance Modulus",
+      RenderMethod = "Texture Based", -- or PSF
+      DataMapping = {
+        Bv = "colorb_v",
+        Luminance = "lum",
+        AbsoluteMagnitude = "absmag",
+        ApparentMagnitude = "appmag",
+        Vx = "vx",
+        Vy = "vy",
+        Vz = "vz",
+        Speed = "speed"
+      }
+    },
+
+
+    GUI = {
+      Path = "/Milky Way/Alternate Star Catalogs"
+    }
+}
+
+asset.onInitialize(function()
+  openspace.addSceneGraphNode(object)
+end)
+
+asset.onDeinitialize(function()
+  openspace.removeSceneGraphNode(object)
+end)
+
+asset.export(object)
+
+
+asset.meta = {
+    Name = "Bright Star Catalog",
+    Version = "1.0",
+    Description = "BrightStar Catalog",
+    Author = "James Hedberg",
+    URL = "https://ccnyplanetarium.org",
+    License = "MIT license"
+}
