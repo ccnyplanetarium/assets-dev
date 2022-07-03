@@ -1,0 +1,32 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Hya: snake
+ mesh -c 1 -s wire {
+1 18
+ -29.5201  -26.9017   23.2442 # Hip:43813, Zeta Hya
+ -93.3975  -87.8624   63.4328 # Hip:42799, Eta Hya
+ -71.8053  -66.2914   46.2258 # Hip:42402, Sigma Hya
+ -37.6097  -31.8445   24.2297 # Hip:42313, Delta Hya
+ -27.5976  -23.7530   19.7895 # Hip:43109, Epsilon Hya
+ -29.5201  -26.9017   23.2442 # Hip:43813, Zeta Hya
+ -21.9285  -25.0233   21.2209 # Hip:45336, Theta Hya
+ -37.7652  -57.0337   49.6630 # Hip:47431, Iota Hya
+ -22.6797  -41.7503   26.3862 # Hip:46390, Alpha Hya
+ -23.5014  -69.1732   41.2399 # Hip:48356, Upsilon1 Hya
+  -8.4702  -27.7134   19.9141 # Hip:49841, Lambda Hya
+ -11.0150  -62.3857   42.1715 # Hip:51069, Mu Hya
+  -2.9043  -33.5496   25.8962 # Hip:52943, Nu Hya
+   8.5008  -33.9055   18.6847 # Hip:56343, Xi Hya
+  32.8118  -93.8427   51.5453 # Hip:57936, Beta Hya
+  33.7024  -42.8455   45.0547 # Hip:64166, Psi Hya
+  20.6133  -23.6312   25.6337 # Hip:64962, Gamma Hya
+  20.7607  -15.6440   17.0449 # Hip:68895, Pi Hya
+}

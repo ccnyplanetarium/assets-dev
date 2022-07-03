@@ -1,0 +1,21 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Tuc: toucan
+ mesh -c 1 -s wire {
+1 7
+  46.0638  -33.6230  -58.7813 # Hip:110838, Delta Tuc
+  35.3950  -20.2535  -45.2324 # Hip:110130, Alpha Tuc
+  10.3060   -7.4057  -18.0029 # Hip:114996, Gamma Tuc
+  15.0638  -20.1519  -34.6568 # Hip:2484, Beta1 Tuc
+   3.2865   -4.1574   -6.7637 # Hip:1599, Zeta Tuc
+  47.9890  -54.6239  -88.8524 # Hip:118322, Epsilon Tuc
+  10.3060   -7.4057  -18.0029 # Hip:114996, Gamma Tuc
+}

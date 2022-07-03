@@ -1,0 +1,39 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Lep: Upper part
+ mesh -c 1 -s wire {
+1 5
+ -10.9700   -9.1254   -4.7665 # Hip:28103, Eta Lep
+ -15.5424  -12.7663   -7.6508 # Hip:27288, Zeta Lep
+-212.6297 -184.4909 -132.1156 # Hip:25985, Alpha Lep
+ -39.3910  -29.9539  -27.3250 # Hip:24305, Mu Lep
+ -275.3949 -191.5890 -165.3317 # Hip:248452, Lambda Lep
+}
+
+# Lep: Lower part
+ mesh -c 1 -s wire {
+1 8
+ -10.9700   -9.1254   -4.7665 # Hip:28103, Eta Lep
+ -37.4873  -33.1758  -14.9591 # Hip:28910, Theta Lep
+ -22.2040  -22.8587  -13.0167 # Hip:27654, Delta Lep
+  -5.5978   -5.9600   -3.6870 # Hip:27072, Gamma Lep
+ -31.4545  -29.9128  -22.3091 # Hip:25606, Beta Lep
+ -42.5822  -40.0520  -37.5743 # Hip:23685, Epsilon Lep
+ -39.3910  -29.9539  -27.3250 # Hip:24305, Mu Lep
+ -126.2563   -84.7743   -79.3350 # Hip:24327, Kappa Lep
+}
+
+# Lep: connecting part
+ mesh -c 1 -s wire {
+1 2
+-212.6297 -184.4909 -132.1156 # Hip:25985, Alpha Lep
+ -31.4545  -29.9128  -22.3091 # Hip:25606, Beta Lep
+}

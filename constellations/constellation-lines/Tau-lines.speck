@@ -1,0 +1,30 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Tau: the horns
+ mesh -c 1 -s wire {
+1 7
+ -40.0664    1.4034   -2.6242 # Hip:25428, Beta Tau
+ -44.6445    1.8742  -16.1961 # Hip:20889, Epsilon Tau
+ -43.5215    1.5083  -17.6019 # Hip:20455, Delta1 Tau
+ -43.2090    0.6912  -19.0738 # Hip:20205, Gamma Tau
+ -42.3526   -0.2567  -17.1208 # Hip:20894, Theta2 Tau
+ -18.7277   -0.3175   -6.9092 # Hip:21421, Alpha Tau
+-126.6329  -12.6089  -12.5581 # Hip:26451, Zeta Tau
+}
+
+# Tau: the front
+ mesh -c 1 -s wire {
+1 4
+ -43.2090    0.6912  -19.0738 # Hip:20205, Gamma Tau
+ -98.8732    2.8106  -55.6787 # Hip:18724, Lambda Tau
+ -53.9301    5.6534  -41.2299 # Hip:16083, Xi Tau
+ -50.7257    5.2260  -40.0652 # Hip:15900, Omicron Tau
+}

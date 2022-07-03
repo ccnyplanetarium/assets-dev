@@ -1,0 +1,42 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Peg: great square
+ mesh -c 1 -s wire {
+1 5
+  -9.2585   23.2275  -16.1410 # Hip:677, Alpha And
+ -23.3151   66.0805  -74.3195 # Hip:1067, Gamma Peg
+   0.9791   32.5947  -27.7339 # Hip:113963, Alpha Peg
+  -5.3484   53.1365  -29.6576 # Hip:113881, Beta Peg
+  -9.2585   23.2275  -16.1410 # Hip:677, Alpha And
+}
+
+# Peg: wings
+ mesh -c 1 -s wire {
+1 8
+   6.6330   32.3422  -12.4528 # Hip:107354, Kappa Peg
+   1.4437   10.6207   -4.8301 # Hip:109176, Iota Peg
+  -2.6007   59.6701  -27.7918 # Hip:112158, Eta Peg
+  -5.3484   53.1365  -29.6576 # Hip:113881, Beta Peg
+  -0.3652   30.8070  -18.1898 # Hip:112748, Mu Peg
+   1.3441  103.7473  -62.3819 # Hip:112440, Lambda Peg
+ 106.3792  326.9510 -171.4613 # Hip:107348, HD 206859
+  15.0401   41.4348  -16.8536 # Hip:105502, HD 203504
+}
+
+# Peg: lower leg
+ mesh -c 1 -s wire {
+1 5
+   0.9791   32.5947  -27.7339 # Hip:113963, Alpha Peg
+   1.8772   12.2319  -10.5312 # Hip:112447, Xi Peg
+   9.3722   47.5877  -41.6620 # Hip:112029, Zeta Peg
+   8.8731   21.3332  -18.5213 # Hip:109427, Theta Peg
+  72.7394  160.1361 -107.6007 # Hip:107315, Epsilon Peg
+}

@@ -1,0 +1,25 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# PsA: south fish
+ mesh -c 1 -s wire {
+1 11
+   3.0538    1.1411   -6.9621 # Hip:113368, Alpha PsA
+  21.8862    5.3312  -47.1411 # Hip:113246, Delta PsA
+  29.4064    6.8207  -61.1178 # Hip:112948, Gamma PsA
+  22.4568    5.8472  -39.1088 # Hip:111188, Beta PsA
+  22.6159    5.3647  -32.5340 # Hip:109285, Mu PsA
+  39.7014    9.0751  -47.7713 # Hip:107380, Iota PsA
+  64.1657   18.6904  -79.4771 # Hip:107608, Theta PsA
+ 138.3180   52.2581 -192.3121 # Hip:108661, Eta PsA
+  81.9052   34.0638 -128.0367 # Hip:109789, Lambda PsA
+  99.9977   47.6679 -199.6345 # Hip:111954, Epsilon PsA
+   3.0538    1.1411   -6.9621 # Hip:113368, Alpha PsA
+}

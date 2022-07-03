@@ -1,0 +1,26 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Vel: sail
+ mesh -c 1 -s wire {
+1 12
+   7.9093  -34.1867    5.2896 # Hip:52727, Mu Vel
+  75.2578 -457.2701    0.8516 # Hip:48774, Phi Vel
+  16.9068 -164.1057  -10.1981 # Hip:45941, Kappa Vel
+   0.8794  -24.2319   -3.1366 # Hip:42913, Delta Vel
+ -32.0017 -253.4040  -34.4686 # Hip:39953, Gamma Vel
+ -51.2262 -366.9377   -7.3781 # Hip:42312, HD 73634
+  -9.0944  -69.4844    0.0566 # Hip:42884, HD 74772
+ -12.4436 -175.0923    8.6504 # Hip:44816, Lambda Vel
+  -1.0334  -18.3507    2.5537 # Hip:46651, Psi Vel
+   2.3265  -30.7625    6.4914 # Hip:50191, HD 88955
+   5.0278  -25.7142    4.0883 # Hip:51986, HD 92139
+   7.9093  -34.1867    5.2896 # Hip:52727, Mu Vel
+}

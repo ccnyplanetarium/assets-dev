@@ -1,0 +1,41 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Aqr: Main Branch
+ mesh -c 1 -s wire {
+1 11
+  48.1826   37.2137  -35.2977 # Hip:102618, Epsilon Aqr
+  99.0467  110.0904 -115.1958 # Hip:106278, Beta Aqr
+  86.5090  149.4078 -155.8102 # Hip:109074, Alpha Aqr
+  15.7295   29.8074  -34.7082 # Hip:110395, Gamma Aqr
+   9.1325   19.9046  -22.9412 # Hip:110960, Zeta Aqr
+  14.9196   34.8813  -41.5636 # Hip:111497, Eta Aqr
+  11.5439   33.4131  -58.2290 # Hip:114724, Phi Aqr
+  31.5340   59.7878  -99.2097 # Hip:112961, Lambda Aqr
+  37.2498   48.1333  -99.3960 # Hip:112716, Tau2 Aqr
+  15.5396   18.2454  -42.6515 # Hip:113136, Delta Aqr
+  21.7069   19.3810  -65.4562 # Hip:114341, 88 Aqr
+}
+
+# Aqr: Top of the Jug
+ mesh -c 1 -s wire {
+1 2
+ 105.5604  237.1648 -257.2439 # Hip:110672, Pi Aqr
+   9.1325   19.9046  -22.9412 # Hip:110960, Zeta Aqr
+}
+
+# Aqr: Alpha branch
+ mesh -c 1 -s wire {
+1 4
+  86.5090  149.4078 -155.8102 # Hip:109074, Alpha Aqr
+  23.0696   31.1850  -44.0372 # Hip:110003, Theta Aqr
+  76.1270   82.6872 -130.3525 # Hip:109472, e Aqr
+  24.9900   23.7190  -40.1544 # Hip:109139, Iota Aqr
+}

@@ -1,0 +1,32 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Cap: Upper part
+ mesh -c 1 -s wire {
+1 6
+  25.9002   15.6220  -13.9821 # Hip:100064, Alpha2 Cap
+  82.5396   46.0346  -46.8527 # Hip:100345, Beta Cap
+  32.9799   20.0621  -29.3945 # Hip:104139, Theta Cap
+  41.6809   27.7189  -43.1598 # Hip:105515, Iota Cap
+  24.5033   17.8013  -29.9426 # Hip:106985, Gamma Cap
+   6.5056    5.0102   -8.5066 # Hip:107556, Delta Cap
+}
+
+# Cap: Lower part
+ mesh -c 1 -s wire {
+1 7
+   6.5056    5.0102   -8.5066 # Hip:107556, Delta Cap
+ 121.9797   76.0503 -143.6965 # Hip:106723, Epsilon Cap
+  78.8144   40.1202  -84.1849 # Hip:105881, Zeta Cap
+ 113.8343   45.9347 -103.0236 # Hip:104234, 24 Cap
+ 145.6063   48.6173 -116.4477 # Hip:102978, Omega Cap
+  11.2235    4.0859   -8.5198 # Hip:102485, Psi Cap
+  82.5396   46.0346  -46.8527 # Hip:100345, Beta Cap
+}

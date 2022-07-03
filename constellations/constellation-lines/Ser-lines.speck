@@ -1,0 +1,32 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Ser: Serpens Cauda
+ mesh -c 1 -s wire {
+1 5
+  32.1979   24.4552    0.6029 # Hip:92946, Theta1 Ser
+  16.8134    8.5290    1.7695 # Hip:89962, Eta Ser
+  49.5015   11.6823    8.2109 # Hip:86565, Omicron Ser
+  31.4160    5.8828    4.8709 # Hip:86263, Xi Ser
+  56.6929   10.6373   13.8083 # Hip:84880, Nu Ser
+}
+
+# Ser: Serpens Caput
+ mesh -c 1 -s wire {
+1 8
+  37.8706    3.0424   28.9336 # Hip:77516, Mu Ser
+  15.6826    3.6643   14.3285 # Hip:77622, Epsilon Ser
+  15.6358    3.9572   15.6186 # Hip:77070, Alpha Ser
+  40.8947   12.9666   47.9627 # Hip:76276, Delta Ser
+  28.2964   13.7888   34.8032 # Hip:77233, Beta Ser
+   6.8751    3.6146    7.9589 # Hip:78072, Gamma Ser
+  61.4504   35.6184   79.8089 # Hip:77450, Kappa Ser
+  28.2964   13.7888   34.8032 # Hip:77233, Beta Ser
+}

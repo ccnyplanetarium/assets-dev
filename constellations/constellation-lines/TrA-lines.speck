@@ -1,0 +1,18 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# TrA: triangle
+ mesh -c 1 -s wire {
+1 4
+  96.2283  -76.4459  -33.5257 # Hip:82273, Alpha TrA
+   9.5961   -7.5389   -1.6116 # Hip:77952, Beta TrA
+  39.5471  -38.5766   -9.2942 # Hip:74946, Gamma TrA
+  96.2283  -76.4459  -33.5257 # Hip:82273, Alpha TrA
+}

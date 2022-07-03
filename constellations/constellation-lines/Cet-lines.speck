@@ -1,0 +1,30 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Cet: the whole damn whale
+ mesh -c 1 -s wire {
+1 16
+ -16.0603    3.1453  -19.0815 # Hip:12706, Gamma Cet
+ -46.8938    5.4956  -48.2062 # Hip:14135, Alpha Cet
+ -93.9800   19.6232  -87.7088 # Hip:13954, Lambda Cet
+ -17.8861    5.3818  -17.8458 # Hip:12828, Mu Cet
+ -34.2642   12.6808  -39.7183 # Hip:11484, Xi2 Cet
+ -72.5551   20.1507  -85.6238 # Hip:12093, Nu Cet
+ -16.0603    3.1453  -19.0815 # Hip:12706, Gamma Cet
+-120.0012   19.5130 -156.8010 # Hip:12387, Delta Cet
+ -66.5112   14.4355 -108.8423 # Hip:10826, Omicron Cet
+ -28.7960    7.2425  -73.6693 # Hip:8645, Zeta Cet
+ -10.2443    6.7564  -32.8981 # Hip:6537, Theta Cet
+  -7.9170    7.3416  -34.4077 # Hip:5364, Eta Cet
+  -4.6977   29.7250  -83.5558 # Hip:1562, Iota Cet
+  -1.7302    4.4312  -28.9895 # Hip:3419, Beta Cet
+  -1.0322    0.1246   -3.4960 # Hip:8102, Tau Cet
+ -28.7960    7.2425  -73.6693 # Hip:8645, Zeta Cet
+}

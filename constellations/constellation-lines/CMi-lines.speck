@@ -1,0 +1,16 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# CMi: Canis Minor
+ mesh -c 1 -s wire {
+1 2
+  -2.8348   -1.8906    0.7881 # Hip:37279, Alpha CMi
+ -44.4765  -25.1839   10.5651 # Hip:36188, Beta CMi
+}

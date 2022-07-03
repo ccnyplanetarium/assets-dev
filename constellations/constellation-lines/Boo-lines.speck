@@ -1,0 +1,32 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Boo: Lower part
+ mesh -c 1 -s wire {
+1 6
+  22.6897   -1.6622   71.7228 # Hip:67459, Upsilon Boo
+   4.3273   -0.0802   14.9832 # Hip:67275, Tau Boo
+   3.2961    0.3052   10.8479 # Hip:67927, Eta Boo
+   3.8751    1.0431   10.5152 # Hip:69673, Alpha Boo
+  43.1937   12.0942   86.3175 # Hip:71762, Pi Boo
+  26.2582    5.0107   48.4557 # Hip:71795, Zeta Boo
+}
+
+# Boo: Upper part
+ mesh -c 1 -s wire {
+1 7
+   3.8751    1.0431   10.5152 # Hip:69673, Alpha Boo
+  11.6884   12.6645   42.2400 # Hip:71053, Rho Boo
+   4.0780    9.7307   23.8904 # Hip:71075, Gamma Boo
+  12.7537   30.9722   58.1062 # Hip:73555, Beta Boo
+  11.2468   14.9864   30.4945 # Hip:74666, Delta Boo
+  21.1755   17.3842   58.1807 # Hip:72105, Epsilon Boo
+   3.8751    1.0431   10.5152 # Hip:69673, Alpha Boo
+}

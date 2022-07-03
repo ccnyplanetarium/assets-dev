@@ -1,0 +1,30 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Gru: Body
+ mesh -c 1 -s wire {
+1 7
+  38.5413    4.1236  -48.6812 # Hip:108085, Gamma Gru
+  44.8434    1.7352  -61.0350 # Hip:109111, Lambda Gru
+  45.9059   -1.0810  -65.9801 # Hip:109908, Mu1 Gru
+  49.0149   -5.3483  -76.0822 # Hip:110997, Delta1 Gru
+  26.8877   -6.5708  -44.2159 # Hip:112122, Beta Gru
+  20.3691   -8.1037  -33.1534 # Hip:112623, Epsilon Gru
+  16.8299   -8.1681  -28.9813 # Hip:113638, Zeta Gru
+}
+
+# Gru: Wings
+ mesh -c 1 -s wire {
+1 4
+  17.9493   -3.7362  -36.4483 # Hip:114131, Theta Gru
+  24.8454   -6.9997  -50.5078 # Hip:114421, Iota Gru
+  26.8877   -6.5708  -44.2159 # Hip:112122, Beta Gru
+  18.6528   -3.2893  -24.6602 # Hip:109268, Alpha Gru
+}

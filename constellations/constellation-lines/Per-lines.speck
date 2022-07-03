@@ -1,0 +1,33 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Per: upper part
+ mesh -c 1 -s wire {
+1 4
+-142.2979  161.8342  -43.1781 # Hip:8068, Phi Per
+-285.2716  246.7197  -20.9290 # Hip:13268, Eta Per
+ -61.8299   48.1898   -5.9448 # Hip:14328, Gamma Per
+-150.6680   99.4661  -18.5370 # Hip:15863, Alpha Per
+}
+
+# Per: lower part
+ mesh -c 1 -s wire {
+1 10
+ -31.1633   20.0420  -12.6579 # Hip:13254, HD 17584
+ -82.2301   48.2485  -29.1645 # Hip:14354, Rho Per
+ -23.5669   14.1736   -7.3175 # Hip:14576, Beta Per
+ -28.3364   18.3158   -6.8229 # Hip:14668, Kappa Per
+-150.6680   99.4661  -18.5370 # Hip:15863, Alpha Per
+-139.8202   79.8063  -16.2631 # Hip:17358, Delta Per
+-149.9390   62.5558  -28.9052 # Hip:18532, Epsilon Per
+-555.3875  198.0678 -137.2851 # Hip:18614, Xi Per
+-248.4121   79.3306  -78.1868 # Hip:18246, Zeta Per
+-405.9095  144.8284 -137.8702 # Hip:17448, Omicron Per
+}

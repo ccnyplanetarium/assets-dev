@@ -1,0 +1,31 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Dra: dragon
+ mesh -c 1 -s wire {
+1 17
+   2.4882   29.4239   17.2066 # Hip:87585, Zeta Dra
+   7.4982   38.7737   22.0871 # Hip:87833, Gamma Dra
+  16.7587   91.1223   60.8839 # Hip:85670, Beta Dra
+   3.0819   25.2184   16.5843 # Hip:85819, Nu2 Dra
+   2.4882   29.4239   17.2066 # Hip:87585, Zeta Dra
+  -4.2575   27.9674   12.0050 # Hip:94376, Delta Dra
+  -8.9820   40.7470   15.8743 # Hip:97433, Epsilon Dra
+ -10.6736   40.5916   18.8726 # Hip:94648, Tau Dra
+  -1.6547    6.9151    3.7900 # Hip:89937, Chi Dra
+  -4.2378   18.4008   11.3597 # Hip:86614, Psi1 Dra
+  -8.9293   84.8175   59.8077 # Hip:83895, Zeta Dra
+  -0.9159   20.2932   17.6282 # Hip:80331, Eta Dra
+  -0.0491   14.9030   14.6884 # Hip:78527, Theta Dra
+  -1.4340   20.6566   23.5098 # Hip:75458, Iota Dra
+ -20.9121   55.8617   73.5505 # Hip:68756, Alpha Dra
+ -59.7482   84.6515  112.1292 # Hip:61281, Kappa Dra
+ -48.3440   51.8768   73.9561 # Hip:56211, Lambda Dra
+}

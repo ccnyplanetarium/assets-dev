@@ -1,0 +1,24 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Pup: stern
+ mesh -c 1 -s wire {
+1 10
+  -8.6622  -17.1100    1.4764 # Hip:39757, Rho Pup
+ -90.1090 -360.7572  -30.6066 # Hip:39429, Zeta Pup
+ -13.5897  -53.4556  -11.6351 # Hip:36377, Sigma Pup
+ -14.4275  -56.8718  -15.7612 # Hip:34922, HD 56096
+  -8.9439  -51.5798  -19.9510 # Hip:32768, Tau Pup
+ -37.6637 -115.4714  -45.5008 # Hip:31685, Nu Pup
+-117.8789 -307.2532  -65.6320 # Hip:35264, Pi Pup
+ -65.3997 -122.8233   -5.9215 # Hip:37229, k Pup
+-633.9503 -1165.4023   13.2752 # Hip:38170, Xi Pup
+  -8.6622  -17.1100    1.4764 # Hip:39757, Rho Pup
+}

@@ -1,0 +1,30 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Leo: body
+ mesh -c 1 -s wire {
+1 7
+ -10.7577  -11.3076   17.9131 # Hip:49669, Alpha Leo
+ -13.2828  -19.2344   49.1953 # Hip:54879, Theta Leo
+  -1.2090   -3.4412   10.4745 # Hip:57632, Beta Leo
+  -4.9889   -4.8562   16.2655 # Hip:54872, Delta Leo
+ -17.9030  -13.2719   31.4196 # Hip:50583, Gamma Leo
+-203.4203 -167.8655  322.8043 # Hip:49583, Eta Leo
+ -10.7577  -11.3076   17.9131 # Hip:49669, Alpha Leo
+}
+
+# Leo: Head
+ mesh -c 1 -s wire {
+1 4
+ -17.9030  -13.2719   31.4196 # Hip:50583, Gamma Leo
+ -39.5018  -23.0161   65.1833 # Hip:50335, Zeta Leo
+ -23.8171  -10.6265   31.3541 # Hip:48455, Mu Leo
+ -45.7183  -23.1107   57.3045 # Hip:47908, Epsilon Leo
+}

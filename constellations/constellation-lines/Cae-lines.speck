@@ -1,0 +1,16 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Cae: Caelum
+ mesh -c 1 -s wire {
+1 2
+  -6.0961  -13.7926  -13.3392 # Hip:21770, Alpha Cae
+ -10.4754  -18.0847  -18.1108 # Hip:21861, Beta Cae
+}

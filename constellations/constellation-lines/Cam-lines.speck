@@ -1,0 +1,19 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Cam: Camelopardalis
+ mesh -c 1 -s wire {
+1 5
+-1957.8573 1519.3127   89.3318 # Hip:16281, HD 21389
+-224.0793  187.8685   45.0088 # Hip:17884, HD 23475
+ -72.3343   69.0906   23.5990 # Hip:17959, Gamma Cam
+-304.8155  179.0620   71.1454 # Hip:23522, Beta Cam
+-103.2483   49.3243   13.4028 # Hip:23040, 7 Cam
+}

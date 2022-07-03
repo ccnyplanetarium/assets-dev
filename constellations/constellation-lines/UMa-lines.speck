@@ -1,0 +1,58 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# UMa: the dipper
+ mesh -c 3 -s wire {
+1 8
+  -2.3922   12.6662   28.0541 # Hip:67301, Eta UMa
+  -4.4768   10.4900   21.0754 # Hip:65378, Zeta1 UMa
+  -6.3738   10.1290   21.7372 # Hip:62956, Epsilon UMa
+  -8.5935    9.3562   21.4954 # Hip:59774, Delta UMa
+  -9.5242    7.7567   22.5149 # Hip:58001, Gamma UMa
+ -12.0503    7.1931   19.8974 # Hip:53910, Beta UMa
+ -19.0104   14.4046   29.4633 # Hip:54061, Alpha UMa
+  -8.5935    9.3562   21.4954 # Hip:59774, Delta UMa
+}
+
+# UMa: front body
+ mesh -c 3 -s wire {
+1 5
+ -19.0104   14.4046   29.4633 # Hip:54061, Alpha UMa
+ -15.0532    8.4683   15.4119 # Hip:46733, HD 81937
+ -41.9068   18.6793   32.6390 # Hip:41704, Omicron UMa
+ -22.2506   10.7039   25.1902 # Hip:48319, Upsilon UMa
+ -12.0503    7.1931   19.8974 # Hip:53910, Beta UMa
+}
+
+# UMa: front leg
+ mesh -c 3 -s wire {
+1 4
+ -22.2506   10.7039   25.1902 # Hip:48319, Upsilon UMa
+  -9.1251    2.3668    9.6441 # Hip:46853, Theta UMa
+ -10.9526    1.6346    9.5713 # Hip:44127, Iota UMa
+ -96.1389   12.4401   86.1689 # Hip:44471, Kappa UMa
+}
+
+# UMa: rear left leg
+ mesh -c 3 -s wire {
+1 3
+  -9.5242    7.7567   22.5149 # Hip:58001, Gamma UMa
+ -21.4662   12.2348   54.7819 # Hip:57399, Chi UMa
+ -45.3235   -8.5860  120.6832 # Hip:55219, Nu UMa
+}
+
+# UMa: rear right leg
+ mesh -c 3 -s wire {
+1 4
+ -21.4662   12.2348   54.7819 # Hip:57399, Chi UMa
+ -19.6598    4.9736   40.1993 # Hip:54539, Psi UMa
+ -42.2267    1.5462   63.5043 # Hip:50801, Mu UMa
+ -23.5227    1.6982   33.7861 # Hip:50372, Lambda UMa
+}

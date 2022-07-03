@@ -1,0 +1,22 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Lac: lizard
+ mesh -c 1 -s wire {
+1 8
+  -6.2237  185.1275  -51.6849 # Hip:109937, HD 211388
+  -8.0848  167.5649  -41.0599 # Hip:109754, HD 211073
+ -46.8837  362.7808  -82.0488 # Hip:111104, HD 213420
+ -20.9332  152.9586  -24.0737 # Hip:110351, HD 212120
+ -59.2669  348.0701  -53.7184 # Hip:111022, HD 213310
+-131.2003  751.8795  -89.8045 # Hip:110609, HD 212593
+  -6.0878   30.5794   -3.6064 # Hip:111169, Alpha Lac
+ -10.1303   50.9112   -3.9086 # Hip:110538, Beta Lac
+}

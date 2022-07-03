@@ -1,0 +1,23 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Aur: Auriga
+ mesh -c 1 -s wire {
+1 9
+ -40.0664    1.4034   -2.6242 # Hip:25428, Beta Tau
+ -52.4836    5.2033    6.2232 # Hip:28380, Theta Aur
+ -24.1709    5.3777    4.5490 # Hip:28360, Beta Aur
+ -12.3062    3.8595    1.0302 # Hip:24608, Alpha Aur
+-1189.6996  368.5426   25.6257 # Hip:23416, Epsilon Aur
+ -65.0634   17.0041    0.3191 # Hip:23767, Eta Aur
+-233.3292   62.4390   -1.8060 # Hip:23453, Zeta Aur
+-153.9794   25.5190  -16.8436 # Hip:23015, Iota Aur
+ -40.0664    1.4034   -2.6242 # Hip:25428, Beta Tau
+}

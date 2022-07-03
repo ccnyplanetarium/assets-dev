@@ -1,0 +1,35 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Ara: main part
+ mesh -c 1 -s wire {
+1 7
+ 302.0472  -90.4450  -77.5531 # Hip:88714, Theta Ara
+  69.3118  -24.1978  -11.4006 # Hip:85792, Alpha Ara
+ 164.9273  -75.6246  -35.3100 # Hip:85258, Beta Ara
+ 281.7043 -133.4951  -63.3010 # Hip:85267, Gamma Ara
+ 154.9859  -79.6487  -25.1252 # Hip:83081, Zeta Ara
+  84.0852  -38.9485  -10.7009 # Hip:83153, Epsilon1 Ara
+  69.3118  -24.1978  -11.4006 # Hip:85792, Alpha Ara
+}
+
+# Ara: Delta Leg
+ mesh -c 1 -s wire {
+1 2
+ 281.7043 -133.4951  -63.3010 # Hip:85267, Gamma Ara
+  48.7666  -26.7321  -14.2330 # Hip:85727, Delta Ara
+}
+
+# Ara: Eta leg
+ mesh -c 1 -s wire {
+1 2
+ 154.9859  -79.6487  -25.1252 # Hip:83081, Zeta Ara
+  81.8261  -47.9401  -15.2983 # Hip:82363, Eta Ara
+}

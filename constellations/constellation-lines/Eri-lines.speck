@@ -1,0 +1,48 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+
+# Eri: river
+ mesh -c 1 -s wire {
+1 33
+-286.9576 -159.9815 -165.1329 # Hip:23972, Lambda Eri
+ -22.2558  -10.5381  -11.6479 # Hip:23875, Beta Eri
+ -55.7521  -24.5295  -33.4552 # Hip:22701, Omega Eri
+-133.1799  -49.8724  -79.9247 # Hip:22109, Mu Eri
+-144.9159  -50.7819  -93.6419 # Hip:21444, Nu Eri
+ -28.4694   -9.9831  -23.9040 # Hip:19587, Omicron1 Eri
+ -43.7882  -20.5693  -47.4961 # Hip:18543, Beta Eri
+  -5.9719   -1.9507   -6.5047 # Hip:17378, Delta Eri
+  -2.0695   -0.5874   -2.3933 # Hip:16537, Epsilon Eri
+ -22.5316   -4.6164  -28.7167 # Hip:15197, Zeta Eri
+ -23.0581   -2.8945  -33.5750 # Hip:13701, Eta Eri
+  -6.0253   -2.2928  -12.3984 # Hip:12843, Tau1 Eri
+ -10.9121   -7.2331  -22.9484 # Hip:14146, Tau3 Eri
+ -37.5153  -23.5231  -65.6368 # Hip:15474, Tau4 Eri
+ -45.7561  -30.3083  -72.2653 # Hip:16611, Tau5 Eri
+  -9.0974   -6.9427  -13.7956 # Hip:17651, Tau6 Eri
+ -59.2393  -49.6994  -89.4019 # Hip:18216, Tau8 Eri
+ -52.6869  -43.6590  -74.9991 # Hip:18673, Tau9 Eri
+ -18.3905  -21.8063  -25.3149 # Hip:21248, Upsilon1 Eri
+ -30.2573  -37.3811  -42.2583 # Hip:21393, Upsilon2 Eri
+ -34.2465  -49.2238  -58.3685 # Hip:20535, Upsilon3 Eri
+ -22.1942  -31.3166  -39.0200 # Hip:20042, Upsilon4 Eri
+ -21.3432  -34.0040  -50.2904 # Hip:17874, HD 24160
+ -15.2958  -26.6768  -38.7023 # Hip:17797, HD 24071
+ -16.9802  -36.1747  -54.0322 # Hip:16870, HD 22663
+  -1.1147   -3.1923   -5.0288 # Hip:15510, HD 20794
+  -9.1130  -22.3925  -43.1442 # Hip:13847, HD 18622
+  -6.8963  -18.2473  -40.1112 # Hip:12486, HD 16815
+  -4.4700  -17.5013  -35.4217 # Hip:12413, HD 16754
+  -3.7884  -75.3936 -143.4211 # Hip:11407, Kappa Eri
+   2.1593  -23.0511  -41.4567 # Hip:10602, Phi Eri
+   1.5134   -7.8850  -15.5332 # Hip:9007, Chi Eri
+   8.1280  -21.3511  -37.7113 # Hip:7588, Alpha Eri
+}
