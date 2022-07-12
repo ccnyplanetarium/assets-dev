@@ -1,0 +1,57 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Her: Arms
+ mesh -c 1 -s wire {
+1 8
+  39.4482  123.7706   78.8752 # Hip:86414, Iota Her
+  82.7531  164.2205   91.3651 # Hip:87808, Theta Her
+  49.5362   91.0151   66.5508 # Hip:85112, Rho Her
+  45.5082   80.9645   63.4574 # Hip:84380, Pi Her
+  12.0766   22.9844   22.4936 # Hip:81833, Eta Her
+  26.7110   62.6556   62.8497 # Hip:81126, Sigma Her
+  20.5078   64.9849   68.2314 # Hip:79992, Tau Her
+  15.6482   45.0563   51.3407 # Hip:79101, Phi Her
+}
+
+# Her: Legs
+ mesh -c 1 -s wire {
+1 9
+  56.5351   81.3014   39.1831 # Hip:88794, Omicron Her
+  21.8126   31.0473   16.7079 # Hip:87933, Xi Her
+   4.6167    6.0038    3.6329 # Hip:86974, Mu Her
+  64.3301   75.2744   53.6378 # Hip:85693, Lambda Her
+  14.0526   14.9773   12.5478 # Hip:84379, Delta Her
+  24.3233   32.1070   29.4541 # Hip:83207, Epsilon Her
+   4.9949    6.5472    6.9808 # Hip:81693, Zeta Her
+  26.8873   21.7790   29.2537 # Hip:80816, Beta Her
+  82.7192   59.0764   53.6353 # Hip:84345, Alpha Her
+}
+
+# Her: Foot
+ mesh -c 1 -s wire {
+1 2
+  26.8873   21.7790   29.2537 # Hip:80816, Beta Her
+  36.7555   25.9845   39.5446 # Hip:80170, Gamma Her
+}
+
+# Her: left body
+ mesh -c 1 -s wire {
+1 2
+  45.5082   80.9645   63.4574 # Hip:84380, Pi Her
+  24.3233   32.1070   29.4541 # Hip:83207, Epsilon Her
+}
+
+# Her: right body
+ mesh -c 1 -s wire {
+1 2
+  12.0766   22.9844   22.4936 # Hip:81833, Eta Her
+   4.9949    6.5472    6.9808 # Hip:81693, Zeta Her
+}

@@ -1,0 +1,20 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Hor: clock
+ mesh -c 1 -s wire {
+1 6
+  -9.7211  -22.7670  -26.0087 # Hip:19747, Alpha Hor
+  -0.1879   -9.0518  -14.6729 # Hip:12653, Iota Hor
+   0.9536  -23.6608  -37.6341 # Hip:12225, Eta Hor
+   2.1021  -27.1310  -40.5136 # Hip:12484, Zeta Hor
+   3.4866  -26.7389  -32.5228 # Hip:14240, Mu Hor
+   6.8925  -29.9884  -33.7093 # Hip:13935, Beta Hor
+}

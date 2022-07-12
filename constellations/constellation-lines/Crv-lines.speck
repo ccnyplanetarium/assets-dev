@@ -1,0 +1,20 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Crv: Corvus
+ mesh -c 1 -s wire {
+1 6
+   4.1548  -11.0198    8.9119 # Hip:59199, Alpha Crv
+  25.3301  -67.4254   58.8687 # Hip:59316, Epsilon Crv
+  12.9132  -33.6666   35.4363 # Hip:59803, Gamma Crv
+   8.0442  -16.8858   19.3984 # Hip:60965, Delta Crv
+  15.4990  -29.3053   27.1416 # Hip:61359, Beta Crv
+  25.3301  -67.4254   58.8687 # Hip:59316, Epsilon Crv
+}

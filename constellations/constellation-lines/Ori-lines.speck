@@ -1,0 +1,55 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Ori: Body and club
+ mesh -c 1 -s wire {
+1 15
+-104.9264  -37.7492  -17.5786 # Hip:27989, Alpha Ori
+-305.6981  -82.2078  -67.2567 # Hip:26207, Lambda Ori
+ -68.5417  -20.8608  -20.4804 # Hip:25336, Gamma Ori
+-203.7249  -90.0905  -71.2596 # Hip:25930, Delta Ori
+-205.6436  -95.3066  -84.2533 # Hip:25281, Eta Ori
+-187.0224 -104.6993 -101.0643 # Hip:24436, Beta Ori
+-172.8811 -118.8810  -70.1863 # Hip:27366, Kappa Ori
+-215.0528 -106.9968  -71.5379 # Hip:26727, Zeta Ori
+-104.9264  -37.7492  -17.5786 # Hip:27989, Alpha Ori
+ -43.8139  -14.8160   -5.1163 # Hip:28614, Mu Ori
+-187.0737  -52.9622   -7.0092 # Hip:29426, Xi Ori
+-239.7359  -42.3933   -4.9945 # Hip:28691, HD 41040
+  -8.5593   -1.2728   -0.4129 # Hip:27913, Chi2 Ori
+-158.3124  -41.8465   -7.7823 # Hip:29038, Nu Ori
+-187.0737  -52.9622   -7.0092 # Hip:29426, Xi Ori
+}
+
+# Ori: belt
+ mesh -c 1 -s wire {
+1 3
+-215.0528 -106.9968  -71.5379 # Hip:26727, Zeta Ori
+-550.8742 -259.3621 -188.9620 # Hip:26311, Epsilon Ori
+-203.7249  -90.0905  -71.2596 # Hip:25930, Delta Ori
+}
+
+# Ori: arm to shield
+ mesh -c 1 -s wire {
+1 2
+ -68.5417  -20.8608  -20.4804 # Hip:25336, Gamma Ori
+  -7.2371   -1.4660   -3.1443 # Hip:22449, Pi3 Ori
+}
+
+# Ori: shield
+ mesh -c 1 -s wire {
+1 6
+ -34.2352   -5.6342  -12.8020 # Hip:22845, Pi1 Ori
+ -54.3168   -9.4042  -22.0799 # Hip:22509, Pi2 Ori
+  -7.2371   -1.4660   -3.1443 # Hip:22449, Pi3 Ori
+-345.0965  -78.9757 -154.0933 # Hip:22549, Pi4 Ori
+-359.3005 -104.8413 -171.0622 # Hip:22797, Pi5 Ori
+-235.1035  -74.3904 -109.8879 # Hip:23123, Pi6 Ori
+}

@@ -1,0 +1,27 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Col: wings
+ mesh -c 1 -s wire {
+1 6
+ -33.0535  -59.6947  -25.1648 # Hip:30277, Delta Col
+ -24.1537  -46.0974  -20.9090 # Hip:29807, Kappa Col
+-113.6029 -206.8673 -113.2658 # Hip:28199, Gamma Col
+ -11.2568  -20.5973  -11.9895 # Hip:27628, Beta Col
+ -37.3018  -61.6134  -39.6896 # Hip:26634, Alpha Col
+ -36.5827  -63.0814  -43.5998 # Hip:25859, Epsilon Col
+}
+
+# Col: body
+ mesh -c 1 -s wire {
+1 2
+ -11.2568  -20.5973  -11.9895 # Hip:27628, Beta Col
+ -50.8190 -135.6072  -74.5224 # Hip:28328, Eta Col
+}

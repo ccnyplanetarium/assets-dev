@@ -1,0 +1,18 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Ant: Antlia
+ mesh -c 1 -s wire {
+1 4
+ -24.2630 -209.2775   40.7934 # Hip:46515, Epsilon Ant
+ -19.5405 -109.6010   38.4611 # Hip:47758, Theta Ant
+  -0.2233 -103.8908   42.7940 # Hip:51172, Alpha Ant
+   8.8025  -56.5019   21.1679 # Hip:53502, Iota Ant
+}

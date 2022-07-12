@@ -1,0 +1,24 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Car: Carina
+ mesh -c 1 -s wire {
+1 10
+ 127.5602 -474.7930  -76.2802 # Hip:48002, Upsilon Car
+   9.0873  -31.7359   -8.4802 # Hip:45238, Beta Car
+  38.3839 -104.5289  -22.0071 # Hip:50099, Omega Car
+  44.9780 -126.3292  -11.5000 # Hip:52419, Theta Car
+  44.9583 -145.4169   -8.3867 # Hip:51576, HD 91465
+  60.1211 -217.0639  -14.9799 # Hip:50371, HD 89388
+  30.9983 -208.4343  -25.9151 # Hip:45556, Iota Car
+  14.1325 -188.6018  -42.2785 # Hip:41037, Epsilon Car
+  -6.7177 -115.6973  -25.3111 # Hip:38827, Chi Car
+ -13.2440  -85.6689  -40.9619 # Hip:30438, Alpha Car
+}

@@ -1,0 +1,29 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Crt: the cup part
+ mesh -c 1 -s wire {
+1 6
+  15.8142  -61.2722   60.5258 # Hip:58188, Eta Crt
+  16.0278  -78.5359   71.5013 # Hip:57283, Zeta Crt
+   1.8414  -19.4560   16.7009 # Hip:55705, Gamma Crt
+   1.5886  -43.9831   40.3390 # Hip:55282, Delta Crt
+   1.3936  -76.8054   81.1356 # Hip:55687, Epsilon Crt
+   4.5561  -61.3149   70.3855 # Hip:56633, Theta Crt
+}
+
+# Crt: the lower part
+ mesh -c 1 -s wire {
+1 4
+   1.8414  -19.4560   16.7009 # Hip:55705, Gamma Crt
+   5.5953  -66.9606   46.2385 # Hip:54682, Beta Crt
+  -0.7043  -42.6112   32.2553 # Hip:53740, Alpha Crt
+   1.5886  -43.9831   40.3390 # Hip:55282, Delta Crt
+}

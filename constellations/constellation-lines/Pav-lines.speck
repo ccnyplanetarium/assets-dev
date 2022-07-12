@@ -1,0 +1,25 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Pav: peacock
+ mesh -c 1 -s wire {
+1 11
+  43.3847  -15.0196  -32.3782 # Hip:100751, Alpha Pav
+  29.2330  -17.5911  -24.7957 # Hip:102395, Beta Pav
+  22.0088  -17.1831  -16.7124 # Hip:98495, Epsilon Pav
+  46.8601  -34.6957  -27.1284 # Hip:91792, Zeta Pav
+  92.2855  -56.7721  -34.6834 # Hip:86929, Eta Pav
+  34.8144  -19.7070  -14.2367 # Hip:88866, Pi Pav
+ 107.8915  -54.2992  -44.9162 # Hip:90098, Xi Pav
+ 315.4746 -156.5278 -155.8665 # Hip:92609, Lambda Pav
+   4.4549   -2.5959   -3.2739 # Hip:99240, Delta Pav
+  29.2330  -17.5911  -24.7957 # Hip:102395, Beta Pav
+   5.9719   -3.7093   -5.9601 # Hip:105858, Gamma Pav
+}

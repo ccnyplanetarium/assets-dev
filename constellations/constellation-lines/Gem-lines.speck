@@ -1,0 +1,33 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+
+# Gem: Bodies
+ mesh -c 1 -s wire {
+1 8
+ -69.8662  -11.9753    5.1674 # Hip:30343, Mu Gem
+-269.3317  -45.2441   46.3360 # Hip:32246, Epsilon Gem
+ -87.6698  -11.1039   27.3540 # Hip:34693, Tau Gem
+ -14.4813   -1.8912    6.0433 # Hip:36850, Alpha Gem
+  -9.2710   -2.0095    4.1066 # Hip:37826, Beta Gem
+ -16.6749   -4.7767    4.9362 # Hip:35550, Delta Gem
+-362.5493 -102.2245   79.4030 # Hip:34088, Zeta Gem
+ -30.6736   -9.2454    2.4948 # Hip:31681, Gamma Gem
+}
+
+# Gem: Feet
+ mesh -c 1 -s wire {
+1 5
+ -16.3507   -6.1911    1.3768 # Hip:32362, Xi Gem
+ -30.6736   -9.2454    2.4948 # Hip:31681, Gamma Gem
+-150.0443  -33.0458   11.6756 # Hip:30883, Nu Gem
+ -69.8662  -11.9753    5.1674 # Hip:30343, Mu Gem
+ -89.8297  -13.9917    3.9993 # Hip:29655, Eta Gem
+}

@@ -1,0 +1,21 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# CrB: Crown
+ mesh -c 1 -s wire {
+1 7
+  35.6278   41.9886   77.8152 # Hip:76127, Theta CrB
+  13.8188   14.1047   28.8557 # Hip:75695, Beta CrB
+  10.0822    9.0367   18.4806 # Hip:76267, Alpha CrB
+  20.4700   18.2645   35.0173 # Hip:76952, Gamma CrB
+  24.0944   21.6002   39.0768 # Hip:77512, Delta CrB
+  33.5737   32.0314   52.9729 # Hip:78159, Epsilon CrB
+  47.4854   53.3049   80.5646 # Hip:78493, Iota CrB
+}

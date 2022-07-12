@@ -1,0 +1,30 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Psc: fishes
+ mesh -c 1 -s wire {
+1 16
+  -0.3570    8.2993  -11.0087 # Hip:116771, Iota Psc
+  -0.0431   16.9968  -25.7853 # Hip:116928, Lambda Psc
+   3.0152   28.2891  -40.7542 # Hip:115738, Kappa Psc
+   3.2315   24.4787  -31.6329 # Hip:114971, Gamma Psc
+   0.6408   30.7128  -37.7702 # Hip:115830, Theta Psc
+  -0.3570    8.2993  -11.0087 # Hip:116771, Iota Psc
+  -3.5637   18.8813  -26.1975 # Hip:118268, Omega Psc
+ -28.0235   45.3150  -76.8893 # Hip:3786, Delta Psc
+ -20.6172   26.4952  -47.7163 # Hip:4906, Epsilon Psc
+ -52.8203   36.8232  -92.6984 # Hip:7884, Nu Psc
+ -21.8974   10.0480  -35.1859 # Hip:9487, Alpha Psc
+ -40.2429   28.5911  -61.9031 # Hip:8198, Omicron Psc
+ -45.4614   42.3800  -65.3304 # Hip:7097, Eta Psc
+ -57.8503   70.4961  -71.2711 # Hip:5742, Phi Psc
+ -50.6544   59.1887  -54.9402 # Hip:6193, Upsilon Psc
+ -25.8687   32.9640  -26.7752 # Hip:5586, Tau Psc
+}

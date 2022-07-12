@@ -1,0 +1,20 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Cha: Chamaeleon
+ mesh -c 1 -s wire {
+1 6
+   6.1418  -17.0036   -7.1877 # Hip:40702, Alpha Cha
+  53.5121 -108.3624  -38.1807 # Hip:51839, Gamma Cha
+  41.3724  -67.9478  -23.6295 # Hip:60000, Beta Cha
+  49.0663  -93.3198  -36.2259 # Hip:52633, Delta2 Cha
+  15.2895  -40.9851  -17.5286 # Hip:40888, Theta Cha
+   6.1418  -17.0036   -7.1877 # Hip:40702, Alpha Cha
+}

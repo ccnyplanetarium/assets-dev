@@ -1,0 +1,30 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Cyg: body
+ mesh -c 1 -s wire {
+1 5
+  65.6271  655.7217   22.9854 # Hip:102098, Alpha Cyg
+  78.7445  375.2440   12.4995 # Hip:100453, Gamma Cyg
+  13.8783   40.3409    2.5082 # Hip:98110, Eta Cyg
+  32.4908   69.5207    5.3269 # Hip:96683, Phi Cyg
+  53.7674  101.6272    9.1848 # Hip:95951, Beta2 Cyg
+}
+
+# Cyg: wings
+ mesh -c 1 -s wire {
+1 6
+   3.5068   35.7743   11.5779 # Hip:94779, Kappa Cyg
+   4.0273   35.9701   10.0029 # Hip:95853, Iota2 Cyg
+  10.1031   50.6039    9.3249 # Hip:97165, Delta Cyg
+  78.7445  375.2440   12.4995 # Hip:100453, Gamma Cyg
+   5.3372   21.3271   -2.2002 # Hip:102488, Epsilon Cyg
+  10.3490   43.9638   -9.9733 # Hip:104732, Zeta Cyg
+}

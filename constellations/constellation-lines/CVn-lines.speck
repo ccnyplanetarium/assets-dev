@@ -1,0 +1,16 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# CVn: Canes Venatici
+ mesh -c 1 -s wire {
+1 2
+  -3.1198    5.7935   33.1368 # Hip:63125, Alpha2 CVn
+  -1.5298    1.4707    8.0976 # Hip:61317, Beta CVn
+}

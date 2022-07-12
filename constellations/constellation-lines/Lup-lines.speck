@@ -1,0 +1,32 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Lup: main part
+ mesh -c 1 -s wire {
+1 11
+  48.2373  -16.6401   10.1634 # Hip:78970, Theta Lup
+ 138.4271  -53.7655   28.8903 # Hip:78384, Eta Lup
+ 143.1729  -72.3411   33.7791 # Hip:76297, Gamma Lup
+ 130.6491  -77.7970   27.6962 # Hip:75264, Epsilon Lup
+  45.6060  -31.3955    7.6753 # Hip:74376, Kappa1 Lup
+  28.6346  -20.9889    3.0961 # Hip:74395, Zeta Lup
+ 129.1166 -102.2983   33.3251 # Hip:71860, Alpha Lup
+ 129.5518  -86.5572   38.5851 # Hip:73273, Beta Lup
+  83.2984  -45.6081   23.1661 # Hip:75164, Delta Lup
+  85.8263  -41.9347   29.9226 # Hip:75177, Phi1 Lup
+  57.2091  -20.1805   17.1869 # Hip:77634, Chi Lup
+}
+
+# Lup: connector
+ mesh -c 1 -s wire {
+1 2
+  83.2984  -45.6081   23.1661 # Hip:75164, Delta Lup
+ 143.1729  -72.3411   33.7791 # Hip:76297, Gamma Lup
+}

@@ -1,0 +1,19 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Cas: Cassiopeia
+ mesh -c 1 -s wire {
+1 5
+  -7.7043   14.7828   -0.9546 # Hip:746, Beta Cas
+ -36.3073   59.4424   -7.6926 # Hip:3179, Alpha Cas
+-103.8843  156.4963   -7.0468 # Hip:4427, Gamma Cas
+ -18.4072   24.2600   -1.2508 # Hip:6686, Delta Cas
+ -86.7814  103.9925    3.8935 # Hip:8886, Epsilon Cas
+}

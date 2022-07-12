@@ -1,0 +1,18 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Scl: sculptor
+ mesh -c 1 -s wire {
+1 4
+  18.3157   -1.5895  -51.5228 # Hip:116231, Beta Scl
+  18.9839    4.1224  -51.2674 # Hip:115102, Gamma Scl
+   9.5464    4.4877  -42.7114 # Hip:117452, Delta Scl
+  -0.3357   -9.8206 -205.9513 # Hip:4577, Alpha Scl
+}

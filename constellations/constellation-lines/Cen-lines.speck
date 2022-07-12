@@ -1,0 +1,44 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# Cen: Lower part to Beta
+ mesh -c 1 -s wire {
+1 9
+  52.0270 -114.3076   -3.0633 # Hip:56561, Lambda Cen
+  56.6635 -120.4863    1.6580 # Hip:57439, HD 102350
+  33.4351  -92.0847   10.4463 # Hip:55425, Pi Cen
+  46.5620  -92.2433   18.2713 # Hip:59449, Rho Cen
+  52.0493 -106.7352   24.3075 # Hip:59196, Delta Cen
+  17.3126  -31.1351    7.8052 # Hip:60808, Sigma Cen
+  20.1398  -33.1830    9.5915 # Hip:61932, Gamma Cen
+  73.4890  -86.9883   17.4683 # Hip:66657, Epsilon Cen
+ 107.2368 -120.0781    3.5162 # Hip:68702, Beta Cen
+}
+
+# Cen: Vertical Part
+ mesh -c 1 -s wire {
+1 6
+   0.9650   -0.9403   -0.0161 # Hip:71683, Alpha1 Cen
+  73.4890  -86.9883   17.4683 # Hip:66657, Epsilon Cen
+  79.5153  -82.1435   28.9131 # Hip:68002, Zeta Cen
+ 106.4877 -109.3606   52.9085 # Hip:67472, Mu Cen
+  95.7937  -97.7750   49.5121 # Hip:67464, Nu Cen
+  12.9631  -11.0891    7.6226 # Hip:68933, Theta Cen
+}
+
+# Cen: Upper part
+ mesh -c 1 -s wire {
+1 5
+  10.2755  -12.5011    7.8200 # Hip:65109, Iota Cen
+ 182.0756 -207.8385  116.3000 # Hip:65936, d Cen
+  95.7937  -97.7750   49.5121 # Hip:67464, Nu Cen
+  72.1657  -54.8288   27.1378 # Hip:71352, Eta Cen
+ 133.8574  -87.3548   42.0936 # Hip:73334, Kappa Cen
+}

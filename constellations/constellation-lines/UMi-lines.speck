@@ -1,0 +1,22 @@
+# DIGITAL UNIVERSE ATLAS version 3
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/
+#
+# The Digital Universe is funded by NASA.
+# Use of these data is subject to the terms of the License.
+#
+# Milky Way Atlas: Constellation Lines
+# Prepared by: Brian Abbott (AMNH/Hayden)
+
+# UMi: bear
+ mesh -c 1 -s wire {
+1 8
+ -64.9796   98.9966   58.9410 # Hip:11767, Alpha UMi
+ -24.1431   43.0471   26.5060 # Hip:85822, Delta UMi
+ -38.4716   82.5172   54.8101 # Hip:82080, Epsilon UMi
+ -36.0940   86.3690   67.1591 # Hip:77055, Zeta UMi
+  -8.0348   22.9752   17.2507 # Hip:79822, Eta UMi
+ -35.2878  105.6888   96.3052 # Hip:75097, Gamma UMi
+ -11.3527   27.2100   25.1835 # Hip:72607, Beta UMi
+ -36.0940   86.3690   67.1591 # Hip:77055, Zeta UMi
+}
