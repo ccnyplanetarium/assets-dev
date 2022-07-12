@@ -1,12 +1,12 @@
 time,lat,long,alt,label,roty,rotz
 time holder,38.8957,-106.1683,2.6,ring,8.594,0
-time holder,38.8960,-106.2390,3.2,ring,0,0
-time holder,38.9111,-106.3681,4.0,ring,0,0
-time holder,38.9243,-106.5370,8.2,ring,0,0
-time holder,38.9456,-106.8669,12.2,ring,-8.084,0
-time holder,38.9890,-107.1129,18.0,ring,-8.084,-34.619
-time holder,39.0214,-107.2999,29.0,ring,0,-34.619
-time holder,39.0292,-107.5603,40.7,ring,0,-34.619
-time holder,39.0329,-107.8228,57.3,ring,0,-34.619
-time holder,39.0326,-107.9831,69.10,ring,0,0
-time holder,39.0326,-108.1198,69.10,ring,0,0
+time holder,38.8923,-106.2352,3.2,ring,0,0
+time holder,38.8860,-106.3595,4.0,ring,0,0
+time holder,38.8734,-106.5184,8.2,ring,0,0
+time holder,38.8555,-106.8340,12.2,ring,0,0
+time holder,38.8280,-107.0535,18.0,ring,0,-34.619
+time holder,38.8110,-107.1680,29.0,ring,0,-34.619
+time holder,38.7966,-107.4264,40.7,ring,0,-34.619
+time holder,38.7737,-107.6777,57.3,ring,0,-34.619
+time holder,38.7498,-108.1122,69.10,ring,0,0
+time holder,38.7302,-108.2639,69.10,ring,0,0
