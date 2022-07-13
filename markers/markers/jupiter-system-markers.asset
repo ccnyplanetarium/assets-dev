@@ -1,0 +1,221 @@
+local assetHelper = asset.require('util/asset_helper')
+
+local Jupitertransforms = asset.require('scene/solarsystem/planets/jupiter/transforms.asset')
+local callistoasset = asset.require('scene/solarsystem/planets/jupiter/callisto/callisto.asset')
+local europaasset = asset.require('scene/solarsystem/planets/jupiter/europa/europa.asset')
+local ganymedeasset = asset.require('scene/solarsystem/planets/jupiter/ganymede/ganymede.asset')
+local ioasset = asset.require('scene/solarsystem/planets/jupiter/io/io.asset')
+
+local PARSEC_CONSTANT = 3.0856776E16;
+local markersize = 5e8
+local JupiterUpMarker = {
+    Identifier = "JupiterUpMarker",
+    Parent = Jupitertransforms.JupiterBarycenter.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = markersize,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Jupiter-up.png'),
+        BlendMode = "Additive"
+    },
+
+    Tag = { "altMarkerPlanet" },
+    GUI = {
+        Name = "Jupiter Marker Up",
+        Path = "/MiscMarkers"
+    }
+}
+
+local JupiterDownMarker = {
+    Identifier = "JupiterDownMarker",
+    Parent = Jupitertransforms.JupiterBarycenter.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = markersize,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Jupiter-down.png'),
+        BlendMode = "Additive"
+    },
+
+    Tag = { "altMarkerPlanet","altMarkerDown" },
+
+    GUI = {
+        Name = "Jupiter Marker Down",
+        Path = "/MiscMarkers"
+    }
+}
+
+local CallistoDownMarker = {
+    Identifier = "CallistoDownMarker",
+    Parent = callistoasset.Callisto.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = markersize,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Callisto-down.png'),
+        BlendMode = "Additive"
+    },
+
+    Tag = { "altMarker","altMarkerDown" },
+
+    GUI = {
+        Name = "Callisto Marker Down",
+        Path = "/MiscMarkers"
+    }
+}
+
+local CallistoUpMarker = {
+    Identifier = "CallistoUpMarker",
+    Parent = callistoasset.Callisto.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = markersize,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Callisto-up.png'),
+        BlendMode = "Additive"
+    },
+
+    Tag = { "altMarker","altMarkerUp" },
+
+    GUI = {
+        Name = "Callisto Marker Up",
+        Path = "/MiscMarkers"
+    }
+}
+
+local EuropaDownMarker = {
+    Identifier = "EuropaDownMarker",
+    Parent = europaasset.Europa.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = markersize,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Europa-down.png'),
+        BlendMode = "Additive"
+    },
+
+    Tag = { "altMarker","altMarkerDown" },
+
+    GUI = {
+        Name = "Europa Marker Down",
+        Path = "/MiscMarkers"
+    }
+}
+
+local EuropaUpMarker = {
+    Identifier = "EuropaUpMarker",
+    Parent = europaasset.Europa.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = markersize,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Europa-up.png'),
+        BlendMode = "Additive"
+    },
+
+    Tag = { "altMarker","altMarkerUp" },
+
+    GUI = {
+        Name = "Europa Marker Up",
+        Path = "/MiscMarkers"
+    }
+}
+
+local IoDownMarker = {
+    Identifier = "IoDownMarker",
+    Parent = ioasset.Io.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = markersize,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Io-down.png'),
+        BlendMode = "Additive"
+    },
+
+    Tag = { "altMarker","altMarkerDown" },
+
+    GUI = {
+        Name = "Io Marker Down",
+        Path = "/MiscMarkers"
+    }
+}
+
+local IoUpMarker = {
+    Identifier = "IoUpMarker",
+    Parent = ioasset.Io.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = markersize,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Io-up.png'),
+        BlendMode = "Additive"
+    },
+
+    Tag = { "altMarker","altMarkerUp" },
+
+    GUI = {
+        Name = "Io Marker Up",
+        Path = "/MiscMarkers"
+    }
+}
+
+
+local GanymedeDownMarker = {
+    Identifier = "GanymedeDownMarker",
+    Parent = ganymedeasset.Ganymede.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = markersize,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Ganymede-down.png'),
+        BlendMode = "Additive"
+    },
+
+    Tag = { "altMarker","altMarkerDown" },
+
+    GUI = {
+        Name = "Ganymede Marker Down",
+        Path = "/MiscMarkers"
+    }
+}
+
+local GanymedeUpMarker = {
+    Identifier = "GanymedeUpMarker",
+    Parent = ganymedeasset.Ganymede.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = markersize,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Ganymede-up.png'),
+        BlendMode = "Additive"
+    },
+
+    Tag = { "altMarker","altMarkerUp" },
+
+    GUI = {
+        Name = "Ganymede Marker Up",
+        Path = "/MiscMarkers"
+    }
+}
+
+assetHelper.registerSceneGraphNodesAndExport(asset, { JupiterUpMarker, JupiterDownMarker, CallistoDownMarker, CallistoUpMarker, EuropaDownMarker, EuropaUpMarker, IoDownMarker, IoUpMarker, GanymedeDownMarker, GanymedeUpMarker})

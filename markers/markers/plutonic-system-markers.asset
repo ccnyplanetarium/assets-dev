@@ -1,0 +1,170 @@
+local assetHelper = asset.require('util/asset_helper')
+
+local plutotransforms = asset.require('scene/solarsystem/dwarf_planets/pluto/transforms.asset')
+
+
+local StyxMarkerJAH = {
+  Identifier = "StyxMarkerJAH",
+  Parent = plutotransforms.PlutoBarycenter.Identifier,
+  Transform = {
+    Translation = {
+      Type = "SpiceTranslation",
+      Target = "STYX",
+      Observer = "PLUTO BARYCENTER"
+    }
+  },
+  Renderable = {
+      Type = "RenderablePlaneImageLocal",
+      Enabled = false,
+      Size = 1e7,
+      Origin = "Center",
+      Billboard = true,
+      Texture = asset.localResource('styx-marker-jah.png'),
+      BlendMode = "Additive"
+  },
+  Tag = { "marker_JAH"},
+
+  GUI = {
+      Name = "Styx Marker JAH",
+      Path = "/MiscMarkers"
+  }
+
+
+}
+
+local NixMarkerJAH = {
+  Identifier = "NixMarkerJAH",
+  Parent = plutotransforms.PlutoBarycenter.Identifier,
+  Transform = {
+    Translation = {
+      Type = "SpiceTranslation",
+      Target = "NIX",
+      Observer = "PLUTO BARYCENTER"
+    }
+  },
+  Renderable = {
+      Type = "RenderablePlaneImageLocal",
+      Enabled = false,
+      Size = 1e7,
+      Origin = "Center",
+      Billboard = true,
+      Texture = asset.localResource('nix-marker-jah.png'),
+      BlendMode = "Additive"
+  },
+  Tag = { "marker_JAH"},
+
+  GUI = {
+      Name = "Nix Marker JAH",
+      Path = "/MiscMarkers"
+  }
+}
+
+local KerberosMarkerJAH = {
+  Identifier = "KerberosMarkerJAH",
+  Parent = plutotransforms.PlutoBarycenter.Identifier,
+  Transform = {
+    Translation = {
+      Type = "SpiceTranslation",
+      Target = "KERBEROS",
+      Observer = "PLUTO BARYCENTER"
+    }
+  },
+  Renderable = {
+      Type = "RenderablePlaneImageLocal",
+      Enabled = false,
+      Size = 1e7,
+      Origin = "Center",
+      Billboard = true,
+      Texture = asset.localResource('kerberos-marker-jah.png'),
+      BlendMode = "Additive"
+  },
+  Tag = { "marker_JAH"},
+
+  GUI = {
+      Name = "Kerberos Marker JAH",
+      Path = "/MiscMarkers"
+  }
+}
+
+local HydraMarkerJAH = {
+  Identifier = "HydraMarkerJAH",
+  Parent = plutotransforms.PlutoBarycenter.Identifier,
+  Transform = {
+    Translation = {
+      Type = "SpiceTranslation",
+      Target = "HYDRA",
+      Observer = "PLUTO BARYCENTER"
+    }
+  },
+  Renderable = {
+      Type = "RenderablePlaneImageLocal",
+      Enabled = false,
+      Size = 1e7,
+      Origin = "Center",
+      Billboard = true,
+      Texture = asset.localResource('hydra-marker-jah.png'),
+      BlendMode = "Additive"
+  },
+  Tag = { "marker_JAH"},
+
+  GUI = {
+      Name = "Hydra Marker JAH",
+      Path = "/MiscMarkers"
+  }
+}
+
+local PlutoMarkerJAH = {
+  Identifier = "PlutoMarkerJAH",
+  Parent = plutotransforms.PlutoBarycenter.Identifier,
+  Transform = {
+    Translation = {
+      Type = "SpiceTranslation",
+      Target = "PLUTO",
+      Observer = "PLUTO BARYCENTER"
+    }
+  },
+  Renderable = {
+      Type = "RenderablePlaneImageLocal",
+      Enabled = false,
+      Size = 1e7,
+      Origin = "Center",
+      Billboard = true,
+      Texture = asset.localResource('pluto-marker-jah.png'),
+      BlendMode = "Additive"
+  },
+  Tag = { "marker_JAH"},
+
+  GUI = {
+      Name = "Pluto Marker JAH",
+      Path = "/MiscMarkers"
+  }
+}
+
+local CharonMarkerJAH = {
+  Identifier = "CharonMarkerJAH",
+  Parent = plutotransforms.PlutoBarycenter.Identifier,
+  Transform = {
+    Translation = {
+      Type = "SpiceTranslation",
+      Target = "CHARON",
+      Observer = "PLUTO BARYCENTER"
+    }
+  },
+  Renderable = {
+      Type = "RenderablePlaneImageLocal",
+      Enabled = false,
+      Size = 1e7,
+      Origin = "Center",
+      Billboard = true,
+      Texture = asset.localResource('charon-marker-jah.png'),
+      BlendMode = "Additive"
+  },
+  Tag = { "marker_JAH"},
+
+  GUI = {
+      Name = "Charon Marker JAH",
+      Path = "/MiscMarkers"
+  }
+}
+
+assetHelper.registerSceneGraphNodesAndExport(asset, {StyxMarkerJAH, NixMarkerJAH,KerberosMarkerJAH, HydraMarkerJAH, PlutoMarkerJAH,CharonMarkerJAH })

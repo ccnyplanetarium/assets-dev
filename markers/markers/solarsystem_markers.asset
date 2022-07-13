@@ -1,0 +1,203 @@
+local assetHelper = asset.require('util/asset_helper')
+local Venustransforms = asset.require('scene/solarsystem/planets/venus/transforms.asset')
+
+local Earthtransforms = asset.require('scene/solarsystem/planets/earth/transforms.asset')
+local Saturntransforms = asset.require('scene/solarsystem/planets/saturn/transforms.asset')
+local Jupitertransforms = asset.require('scene/solarsystem/planets/jupiter/transforms.asset')
+local Mercurytransforms = asset.require('scene/solarsystem/planets/mercury/transforms.asset')
+local Marstransforms = asset.require('scene/solarsystem/planets/mars/transforms.asset')
+local Moontransforms = asset.require('scene/solarsystem/planets/earth/moon/moon.asset')
+local Saturntransforms = asset.require('scene/solarsystem/planets/saturn/transforms.asset')
+local Jupitertransforms = asset.require('scene/solarsystem/planets/jupiter/transforms.asset')
+local Neptunetransforms = asset.require('scene/solarsystem/planets/neptune/transforms.asset')
+local Uranustransforms = asset.require('scene/solarsystem/planets/uranus/transforms.asset')
+
+
+local VenusMarkerJAH = {
+    Identifier = "VenusMarkerJAH",
+    Parent = Venustransforms.VenusBarycenter.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 1e9,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Venus_marker_up.png'),
+        BlendMode = "Additive"
+    },
+
+
+    GUI = {
+        Name = "Venus Marker JAH",
+        Path = "/MiscMarkers"
+    }
+}
+
+local EarthMarkerJAH = {
+    Identifier = "EarthMarkerJAH",
+    Parent = Earthtransforms.EarthIAU.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 1e11,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Earth-down.png'),
+        BlendMode = "Additive"
+    },
+
+
+    GUI = {
+        Name = "Earth Marker JAH",
+        Path = "/MiscMarkers"
+    }
+}
+
+local MoonMarkerJAH = {
+    Identifier = "MoonMarkerJAH",
+    Parent = Moontransforms.Moon.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 1e11,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('moon-up.png'),
+        BlendMode = "Additive"
+    },
+
+
+    GUI = {
+        Name = "Moon Marker JAH",
+        Path = "/MiscMarkers"
+    }
+}
+
+
+local SaturnMarkerJAH = {
+    Identifier = "SaturnMarkerJAH",
+    Parent = Saturntransforms.SaturnBarycenter.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 1E11,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Saturn-up.png'),
+        BlendMode = "Additive"
+    },
+
+
+    GUI = {
+        Name = "Saturn Marker JAH",
+        Path = "/MiscMarkers"
+    }
+}
+
+local MercuryMarkerJAH = {
+    Identifier = "MercuryMarkerJAH",
+    Parent = Mercurytransforms.MercuryBarycenter.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 1E11,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('mercury_marker_down.png'),
+        BlendMode = "Additive"
+    },
+
+
+    GUI = {
+        Name = "Mercury Marker JAH",
+        Path = "/MiscMarkers"
+    }
+}
+
+local MarsMarkerJAH = {
+    Identifier = "MarsMarkerJAH",
+    Parent = Marstransforms.MarsBarycenter.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 1E11,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('mars_marker_up.png'),
+        BlendMode = "Additive"
+    },
+
+
+    GUI = {
+        Name = "Mars Marker JAH",
+        Path = "/MiscMarkers"
+    }
+}
+
+
+
+local JupiterMarkerJAH = {
+    Identifier = "JupiterMarkerJAH",
+    Parent = Jupitertransforms.JupiterBarycenter.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 1.0e11,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Jupiter-up.png'),
+        BlendMode = "Additive"
+    },
+
+
+    GUI = {
+        Name = "Jupiter Marker JAH",
+        Path = "/MiscMarkers"
+    }
+}
+
+
+local NeptuneMarkerJAH = {
+    Identifier = "NeptuneMarkerJAH",
+    Parent = Neptunetransforms.NeptuneBarycenter.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 1.0e11,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Neptune-up.png'),
+        BlendMode = "Additive"
+    },
+
+
+    GUI = {
+        Name = "Neptune Marker JAH",
+        Path = "/MiscMarkers"
+    }
+}
+
+local UranusMarkerJAH = {
+    Identifier = "UranusMarkerJAH",
+    Parent = Uranustransforms.UranusBarycenter.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 1.0e11,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('Uranus-up.png'),
+        BlendMode = "Additive"
+    },
+
+
+    GUI = {
+        Name = "Uranus Marker JAH",
+        Path = "/MiscMarkers"
+    }
+}
+
+
+
+
+assetHelper.registerSceneGraphNodesAndExport(asset, {VenusMarkerJAH, MercuryMarkerJAH,MarsMarkerJAH, MoonMarkerJAH, EarthMarkerJAH,JupiterMarkerJAH,SaturnMarkerJAH,NeptuneMarkerJAH, UranusMarkerJAH })

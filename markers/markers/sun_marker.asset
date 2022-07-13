@@ -1,0 +1,32 @@
+local assetHelper = asset.require('util/asset_helper')
+local suntransforms = asset.require('scene/solarsystem/sun/transforms.asset')
+
+
+local PARSEC_CONSTANT = 3.0856776E16;
+
+local SunMarkerJAH = {
+    Identifier = "SunMarkerJAH",
+    Parent = suntransforms.SunIAU.Identifier,
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 1e9,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('sun-marker-up.png'),
+        BlendMode = "Additive"
+    },
+
+
+    GUI = {
+        Name = "Sun Marker JAH",
+        Path = "/MiscMarkers"
+    }
+}
+
+
+
+
+
+
+assetHelper.registerSceneGraphNodesAndExport(asset, {SunMarkerJAH})

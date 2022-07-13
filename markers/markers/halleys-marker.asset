@@ -1,0 +1,129 @@
+local assetHelper = asset.require('util/asset_helper')
+local Earthtransforms = asset.require('scene/solarsystem/planets/earth/transforms.asset')
+local Saturntransforms = asset.require('scene/solarsystem/planets/saturn/transforms.asset')
+local Jupitertransforms = asset.require('scene/solarsystem/planets/jupiter/transforms.asset')
+local Mercurytransforms = asset.require('scene/solarsystem/planets/mercury/transforms.asset')
+local Marstransforms = asset.require('scene/solarsystem/planets/mars/transforms.asset')
+local Moontransforms = asset.require('scene/solarsystem/planets/earth/moon/moon.asset')
+
+
+local PARSEC_CONSTANT = 3.0856776E16;
+
+
+
+local SpicaMarker = {
+    Identifier = "SpicaMarker",
+    Parent = 'Root',
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 3.0E17,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('spica-up.png'),
+        BlendMode = "Additive"
+    },
+    Transform = {
+        Translation = {
+        Type = 'StaticTranslation',
+        Position = {
+
+          36.5809 * PARSEC_CONSTANT,
+          -35.1877 * PARSEC_CONSTANT,
+          62.3341 * PARSEC_CONSTANT
+          }
+        }
+    },
+    GUI = {
+        Name = "Spica Marker",
+        Path = "/MiscMarkers"
+    }
+}
+
+local SiriusMarker = {
+    Identifier = "SiriusMarker",
+    Parent = 'Root',
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 3.0E17,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('sirius_marker.png'),
+        BlendMode = "Additive"
+    },
+    Transform = {
+        Translation = {
+        Type = 'StaticTranslation',
+        Position = {
+          -1.7693 * PARSEC_CONSTANT,
+          -1.9125 * PARSEC_CONSTANT,
+          -0.4074 * PARSEC_CONSTANT
+          }
+        }
+    },
+    GUI = {
+        Name = "Sirius Marker",
+        Path = "/MiscMarkers"
+    }
+}
+
+local PleiadesMarker = {
+    Identifier = "PleiadesMarker",
+    Parent = 'Root',
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 3.0E17,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('pleiades_marker.png'),
+        BlendMode = "Additive"
+    },
+    Transform = {
+        Translation = {
+        Type = 'StaticTranslation',
+        Position = {
+        -100.6370 * PARSEC_CONSTANT,
+        23.8487 * PARSEC_CONSTANT,
+        -44.8736 * PARSEC_CONSTANT
+          }
+        }
+    },
+    GUI = {
+        Name = "Pleiades Marker",
+        Path = "/MiscMarkers"
+    }
+}
+
+local VirgoClusterMarker = {
+    Identifier = "VirgoClusterMarker",
+    Parent = 'Root',
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 4e22,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('virgo-cluster.png'),
+        BlendMode = "Additive"
+    },
+    Transform = {
+        Translation = {
+        Type = 'StaticTranslation',
+        Position = {
+          772121.36881187 * PARSEC_CONSTANT,
+          -4343022.52564841 * PARSEC_CONSTANT,
+          15899433.44693561 * PARSEC_CONSTANT
+          }
+        }
+    },
+    GUI = {
+        Name = "Virgo Cluster Marker",
+        Path = "/MiscMarkers"
+    }
+}
+
+
+
+assetHelper.registerSceneGraphNodesAndExport(asset, { PleiadesMarker, SiriusMarker, VirgoClusterMarker, SpicaMarker })

@@ -1,0 +1,24 @@
+local assetHelper = asset.require('util/asset_helper')
+local iss = asset.require('scene/solarsystem/planets/earth/satellites/misc/iss.asset')
+
+
+local ISSMarker = {
+    Identifier = "ISSMarker",
+    Parent = "ISSModel",
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 3.0E6,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('iss_down.png'),
+        BlendMode = "Additive"
+    },
+    GUI = {
+        Name = "ISS Marker",
+        Path = "/MiscMarkers"
+    }
+}
+
+
+assetHelper.registerSceneGraphNodesAndExport(asset, { ISSMarker })
