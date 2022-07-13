@@ -64,7 +64,7 @@ local createConstellations = function (baseIdentifier, guiPath, constellationfil
           LazyLoading = true,
           Texture = localimages ..'/'.. imageName,
           BlendMode = "Additive",
-          Opacity = 0.1
+          Opacity = 0.8
         },
         Tag = { "ImageConstellation", group },
         GUI = {
@@ -82,7 +82,7 @@ local createConstellations = function (baseIdentifier, guiPath, constellationfil
               Color = { 1.0, 0.4, 0.2 },
               Transparency = 1.0,
               ScaleFactor = 1.0,
-              File = openspace.absPath("${USER}/data/assets-dev0/constellations/constellation-lines/"..abbreviation.."-lines.speck"),
+              File = openspace.absPath("${USER}/data/assets-dev/constellations/constellation-lines/"..abbreviation.."-lines.speck"),
               TextColor = { 0.8, 0.8, 0.8 },
               TextSize = 14.5,
               TextMaxSize = 170.0,
