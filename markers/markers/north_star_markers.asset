@@ -1,0 +1,72 @@
+local assetHelper = asset.require('util/asset_helper')
+local Earthtransforms = asset.require('scene/solarsystem/planets/earth/transforms.asset')
+local Saturntransforms = asset.require('scene/solarsystem/planets/saturn/transforms.asset')
+local Jupitertransforms = asset.require('scene/solarsystem/planets/jupiter/transforms.asset')
+local Mercurytransforms = asset.require('scene/solarsystem/planets/mercury/transforms.asset')
+local Marstransforms = asset.require('scene/solarsystem/planets/mars/transforms.asset')
+local Moontransforms = asset.require('scene/solarsystem/planets/earth/moon/moon.asset')
+
+
+local PARSEC_CONSTANT = 3.0856776E16;
+
+
+
+local PolarisMarker = {
+    Identifier = "PolarisMarker",
+    Parent = 'Root',
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 3.0E17,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('polaris-down.png'),
+        BlendMode = "Additive"
+    },
+    Transform = {
+        Translation = {
+        Type = 'StaticTranslation',
+        Position = {
+
+          -64.9796 * PARSEC_CONSTANT,
+          98.9966 * PARSEC_CONSTANT,
+          58.9410 * PARSEC_CONSTANT
+          }
+        }
+    },
+    GUI = {
+        Name = "Polaris Marker",
+        Path = "/MiscMarkers"
+    }
+}
+
+local ErraiMarker = {
+    Identifier = "ErraiMarker",
+    Parent = 'Root',
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 3.0E17,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('errai-down.png'),
+        BlendMode = "Additive"
+    },
+    Transform = {
+        Translation = {
+        Type = 'StaticTranslation',
+        Position = {
+
+          -6.4480 * PARSEC_CONSTANT,
+          11.6362 * PARSEC_CONSTANT,
+          3.6431 * PARSEC_CONSTANT
+          }
+        }
+    },
+    GUI = {
+        Name = "Errai Marker",
+        Path = "/MiscMarkers"
+    }
+}
+
+assetHelper.registerSceneGraphNodesAndExport(asset, { PolarisMarker, ErraiMarker })
