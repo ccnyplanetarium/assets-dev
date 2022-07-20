@@ -36,7 +36,7 @@ local PolarisMarker = {
     },
     GUI = {
         Name = "Polaris Marker",
-        Path = "/MiscMarkers"
+        Path = "/StarMarkers"
     }
 }
 
@@ -65,8 +65,37 @@ local ErraiMarker = {
     },
     GUI = {
         Name = "Errai Marker",
+        Path = "/StarMarkers"
+    }
+}
+
+local PleiadesMarker = {
+    Identifier = "PleiadesMarker",
+    Parent = 'Root',
+    Renderable = {
+        Type = "RenderablePlaneImageLocal",
+        Enabled = false,
+        Size = 3.0E17,
+        Origin = "Center",
+        Billboard = true,
+        Texture = asset.localResource('pleiades_marker.png'),
+        BlendMode = "Additive"
+    },
+    Transform = {
+        Translation = {
+        Type = 'StaticTranslation',
+        Position = {
+        -100.6370 * PARSEC_CONSTANT,
+        23.8487 * PARSEC_CONSTANT,
+        -44.8736 * PARSEC_CONSTANT
+          }
+        }
+    },
+    GUI = {
+        Name = "Pleiades Marker",
         Path = "/MiscMarkers"
     }
 }
 
-assetHelper.registerSceneGraphNodesAndExport(asset, { PolarisMarker, ErraiMarker })
+
+assetHelper.registerSceneGraphNodesAndExport(asset, { PolarisMarker, ErraiMarker, PleiadesMarker })
