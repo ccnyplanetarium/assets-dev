@@ -36,7 +36,7 @@ local PolarisMarker = {
     },
     GUI = {
         Name = "Polaris Marker",
-        Path = "/StarMarkers"
+        Path = "/OdysseyMarkers"
     }
 }
 
@@ -65,7 +65,7 @@ local ErraiMarker = {
     },
     GUI = {
         Name = "Errai Marker",
-        Path = "/StarMarkers"
+        Path = "/OdysseyMarkers"
     }
 }
 
@@ -93,7 +93,7 @@ local PleiadesMarker = {
     },
     GUI = {
         Name = "Pleiades Marker",
-        Path = "/MiscMarkers"
+        Path = "/OdysseyMarkers"
     }
 }
 
